@@ -1,0 +1,62 @@
+header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+.navbar {
+  padding: 20px 0;
+  z-index: 5;
+}
+.navbar-brand {
+  font-weight: 800;
+  font-size: 2em;
+  color: #262626;
+}
+
+.nav-item {
+  font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  background: #669933;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #262626;
+  padding: 5px 15px;
+}
+
+.banner {
+  position: relative;
+  background: url("img/employer.jpg");
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  color: #fff;
+  border: 2px solid #7f7f7f;
+  border-radius: 0;
+  outline: none;
+}
+
+.navbar-collapse {
+  /* background: #fff; */
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 200px 0;
+  }
+  .navbar-collapse {
+    background: #fff;
+  }
+}

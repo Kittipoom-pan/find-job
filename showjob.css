@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #485e74;
+  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1em;
+}
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-right: auto;
+  padding: 1em;
+}
+/* navbar */
+/* nav ul{
+    margin-top: -32px;
+} */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+
+.container .wrapper > * {
+  padding: 1em;
+}
+.company {
+  background: #34495e;
+}
+.company h3,
+.company h4,
+.company ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  color: white;
+}
+
+.contact label {
+  display: block;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contact button {
+  width: 100%;
+  padding: 1em;
+  background: #34495e;
+  border: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.contact button:hover,
+.contact button:focus {
+  background: #074e22;
+  color: white;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+
+/* large screens */
+@media (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .container .wrapper > * {
+    padding: 2em;
+  }
+  .company h3,
+  .company h4,
+  .company ul {
+    text-align: left;
+  }
+}

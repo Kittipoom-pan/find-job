@@ -1,0 +1,171 @@
+
+
+/* .nav-constainer{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu>.menu-content>.home {
+    padding: 0px 20px 0px 0px;
+    margin-left: -30px;
+}
+.nav-constainer , .logo{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px 20px;
+
+}
+
+.container .media .media-body a{
+    color:#669933;
+}
+.menu{
+   width: 100%;
+   height: 65px;
+   
+}
+
+.menu , .menu-content{
+    width: 200px;
+    height: 65px;
+    float: right;
+    font-family: sans-serif,Arial;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    position: relative;
+    color: #fff;
+    line-height: 65px;
+    top: 10px;
+}
+
+.menu , .menu-content ,a{
+    color: #fff;
+    text-decoration: none;   
+    
+}*/
+ .arrow-up{
+    width: 0;
+    display: none;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid gainsboro;
+    right: 154px;
+    top: 60px
+    
+  }
+
+  .login-form{
+      position: absolute;
+      width: 300px;
+      height: auto;
+      background: gainsboro;
+      right: 100px;
+      top: 65px;
+      border-radius: 7px;
+      border-bottom: 5px solid gray;  
+      display: none;
+  }
+
+  .login-form , form{
+      width: 250px;
+      margin:  25px auto;
+      font-size: 16px;
+      font-family: sans-serif,Arial;
+      color:black;
+      letter-spacing: -0.05em;
+      padding-left: 5px;
+  }
+
+  .forgot{
+      color: green;
+      margin-left: 104px;
+      text-decoration:none;
+      position:relative;
+      top:10px;
+  }
+
+  .forgot:hover{
+      color: #669933;
+  }
+
+  input[type="text"],
+  input[type="password"]{
+      width: 220px;
+      height: 30px;
+      box-shadow: inset 0 0 10px #eee;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      margin-top: 2px;
+      font-family: sans-serif,Arial;
+      font-size: 16px;
+      color: black;
+  }
+
+  input[type="submit"]{
+      width: 90%;
+      height: 35px;
+      background: #669933;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: sans-serif,Arial;
+      color: white;
+      outline: none;
+      border-radius: 3px;
+      letter-spacing: -0.05em;
+      margin-top: 8px;
+      cursor: pointer;
+  }
+  /* สีตอนเอาเม้าไปที่ปุ่ม */
+   input[type="submit"]:hover{
+      background: green; 
+  }
+
+  .fa{
+      margin-right: 5px;
+  }
+
+  /* .row{
+      text-align: center;
+      margin-top: 100px;
+  }
+
+  img.display{
+      width: 180px;
+      height: 180px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto      
+  }
+
+  h1{
+      margin-bottom: 50px;
+
+  }
+  
+  .row>.col-sm-4> h2{
+      margin-top: 40px;
+  }
+
+  .btn-outline-success{
+      margin-top: 400px;
+      width: 200px;
+      height: 60px;
+  }  */
+
+   /* .picture-head {
+      background-image: url("img/craftsman.jpg"); 
+      min-height: 700px;
+      display:block;
+      opacity: 0.7;
+      z-index: -5;
+      position: inherit;
+  }     */
+
+  
+
+
