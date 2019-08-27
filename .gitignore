@@ -1,1 +1,10 @@
 /uploads
+package-lock.json
+package.json
+map.php
+._.DS_Store
+._index.php
+._service.php
+composer.json
+composer.lock
+composer.phar
